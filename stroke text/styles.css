@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    background-image: linear-gradient(90deg, #ff00d2, #fed90f, #00a2ff, #09f1b8);
+    background-clip: text;
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: 5px;
+    font-size: 80px;
+    letter-spacing: 10px;
+}
